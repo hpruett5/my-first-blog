@@ -8,23 +8,15 @@
             <h1><a href="/">Hannah's Blog</a></h1>
         </header>
 
-        {% for post in posts %}
-    <article>
-        <time>published: {{ post.published_date }}</time>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </article>
-        {% endfor %}
-
         <article>
-            <time>published: 17.04.2025, 18:14</time>
             <h2><a href="">My first post</a></h2>
+            <time>published: 17.04.2025, 18:14</time>
             <p>Goodness gracious, I never thought I would be able to get this assignment done! I wasn't actually having errors, I just didn't know where to click :D All is well. I'm fine. It's fine. Everything is fine.</p>
         </article>
 
         <article>
-            <time>published: 17.04.2025, 18:118</time>
             <h2><a href="">My second post</a></h2>
+            <time>published: 17.04.2025, 18:118</time>
             <p>Well well well, what do you know. I'm slowly making progress in this class. This is the hardest thing I think I've ever done- except a few small things such as learning to walk again after hip surgery and possibly learning how to have patience.</p>
         </article>
     </body>
